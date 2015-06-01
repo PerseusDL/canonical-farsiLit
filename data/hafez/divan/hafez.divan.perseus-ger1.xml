@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
@@ -28,12 +26,25 @@
                
                     <title>Divan</title>
                     <pubPlace>Stuttgart and Tübingen</pubPlace>
-                    <publisher></publisher>
+                    <publisher/>
                     <date>1812</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <encodingDesc><refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+).(\\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:l[@n=\'$3\']/tei:seg[@n=\'$4\'])">
+                <p>This pointer pattern extracts letter and poem and line and seg</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:l[@n=\'$3\'])">
+                <p>This pointer pattern extracts letter and poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts letter and poem</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts letter</p>
+            </cRefPattern>
+        </refsDecl>
             <refsDecl>
                 <refState unit="letter" delim="."/>
                 <refState unit="poem" delim="."/>
@@ -682,7 +693,7 @@
                             <seg n="1">Auf deinem Gesicht erscheinet ### </seg>
                             <seg n="2">Der Widerglanz des Weines, ### </seg>
                             <seg n="3">Wie Purpurblüh lieblich erscheinet ### </seg>
-                            <seg n="4">Auf der Narziß der Fremden. *** </seg>
+                            <seg n="4">Auf der Narziß&#x92; der Fremden. *** </seg>
                         </l>
                         <l n="7">
                             <seg n="1">Ich sprach zu dem Abend: schwarz ist ### </seg>
@@ -4376,7 +4387,7 @@
                         </l>
                         <l n="6">
                             <seg n="1">Jeden Augenblick drängt neues Leiden, ### </seg>
-                            <seg n="2">Wider Herz und Seelenlose  Hülfe! *** </seg>
+                            <seg n="2">Wider Herz und Seelenlose &#x96; Hülfe! *** </seg>
                         </l>
                         <l n="7">
                             <seg n="1">Tag und Nacht vergieß ich Feuerthränen, ### </seg>
@@ -7718,7 +7729,7 @@
                             <seg n="2">Sprich ihn betrunken, er bleibe nicht nüchtern. *** </seg>
                         </l>
                         <l n="6">
-                            <seg n="1">Schwer wirds Bettlern, wie mir, einen Freund zu besitzen, ### </seg>
+                            <seg n="1">Schwer wird&#x92;s Bettlern, wie mir, einen Freund zu besitzen, ### </seg>
                             <seg n="2">Giebt sich mit Trunknen der Gasse der Fürst ab? *** </seg>
                         </l>
                         <l n="7">
