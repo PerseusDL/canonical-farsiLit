@@ -65,7 +65,7 @@
     </teiHeader>
     <text xml:lang="fa">
         <body>
-            <div type="edition" rend="rtl">
+            <div type="edition" rend="rtl" n="urn:cts:farsiLit:hafez.divan.perseus-far1">
                 <div type="textpart" subtype="letter" n="1" xml:id="Alif">
                     <div type="textpart" subtype="poem" n="1">
                         <l n="1">

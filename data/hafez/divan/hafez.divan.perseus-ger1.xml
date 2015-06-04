@@ -64,7 +64,7 @@
     </teiHeader>
     <text xml:lang="de">
         <body>
-            <div type="translation">
+            <div type="translation" n="urn:cts:farsiLit:hafez.divan.perseus-ger1">
                 <div type="textpart" subtype="letter" n="1" xml:id="Alif">
                     <div type="textpart" subtype="poem" n="1">
                         <l n="1">
