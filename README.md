@@ -1,3 +1,7 @@
+[![Hook Status](http://ci.perseids.org/Hook/api/rest/v1.0/code/PerseusDL/canonical-farsiLit/master/badge/status.svg)](http://ci.perseids.org/Hook/PerseusDL/canonical-farsiLit)
+[![Hook Coverage](http://ci.perseids.org/Hook/api/rest/v1.0/code/PerseusDL/canonical-farsiLit/master/badge/coverage.svg)](http://ci.perseids.org/Hook/PerseusDL/canonical-farsiLit)
+[![Hook Texts](http://ci.perseids.org/Hook/api/rest/v1.0/code/PerseusDL/canonical-farsiLit/master/badge/cts.svg)](http://ci.perseids.org/Hook/PerseusDL/canonical-farsiLit)
+
 Canonical - Farsi Literature
 =========
 
