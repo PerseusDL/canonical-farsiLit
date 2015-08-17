@@ -31,7 +31,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc><refsDecl id="CTS">
+        <encodingDesc><refsDecl n="CTS">
             <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+).(\\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:l[@n=\'$3\']/tei:seg[@n=\'$4\'])">
                 <p>This pointer pattern extracts letter and poem and line and seg</p>
             </cRefPattern>
@@ -64,7 +64,7 @@
     </teiHeader>
     <text xml:lang="de">
         <body>
-            <div type="translation" n="urn:cts:farsiLit:hafez.divan.perseus-ger1">
+            <div type="translation" n="urn:cts:farsiLit:hafez.divan.perseus-ger1" xml:lang="ger">
                 <div type="textpart" subtype="letter" n="1" xml:id="Alif">
                     <div type="textpart" subtype="poem" n="1">
                         <l n="1">
