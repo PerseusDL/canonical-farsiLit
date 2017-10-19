@@ -1,0 +1,5 @@
+data/hafez/__cts__.xml
+data/hafez/divan/__cts__.xml
+data/hafez/divan/hafez.divan.perseus-eng1.xml
+data/hafez/divan/hafez.divan.perseus-far1.xml
+data/hafez/divan/hafez.divan.perseus-ger1.xml
